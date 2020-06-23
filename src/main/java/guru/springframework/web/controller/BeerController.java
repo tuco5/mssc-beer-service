@@ -18,7 +18,7 @@ import guru.springframework.web.model.BeerDto;
 @RequestMapping("api/v1/beer")
 public class BeerController {
 	
-	@GetMapping("/{beerId")
+	@GetMapping("/{beerId}")
 	public ResponseEntity<BeerDto> getBeerById(@PathVariable("beerId") UUID beerId){
 		
 		// TODO implementation
